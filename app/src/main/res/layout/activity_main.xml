@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+        <TextView
+
+            android:fontFamily="casual"
+            android:background="#6CB33E"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age Calculator" />
+
+        <TextView
+            android:text="Enter Birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/starting_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:focusable="false"
+            android:fontFamily="casual"
+            android:hint="Enter Birthday..."
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+
+            android:textSize="16sp" />
+        <TextView
+            android:text="Enter Current time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/finishing_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:focusable="false"
+            android:fontFamily="casual"
+            android:hint="Enter Desire time..."
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate age" />
+
+        <TextView
+            android:text="Your age is..."
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/show_age"
+            android:text="Age"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Next birthday"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="next birthday"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Extra"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_marginTop="2dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Total years"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Total months"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Total weeks"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Total days"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Total hours"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Total minutes"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Total seconds"
+            android:textSize="14sp"
+            android:background="#9EDA46"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</ScrollView>
